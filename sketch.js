@@ -13,7 +13,7 @@ var bool1, arr1;
 engine: engine;
 
 function preload(){
- heximg = loadImage("Images/hex.png");   
+ heximg = loadImage("hex.png");   
 }
 
 function setup(){
