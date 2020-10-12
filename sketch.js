@@ -12,9 +12,9 @@ var bool1, arr1;
 
 engine: engine;
 
-function preload(){
- heximg = loadImage("hex.png");   
-}
+//function preload(){
+ //heximg = loadImage("hex.png");   
+//}
 
 function setup(){
   createCanvas(1200,600);
@@ -95,7 +95,7 @@ function draw(){
     
     hex.display();
     imageMode(CENTER);
-     image(heximg,hex.body.position.x,hex.body.position.y,30,30)
+     //image(heximg,hex.body.position.x,hex.body.position.y,30,30)
     sling.display();
     if (bool1 == true){
       Matter.Body.setPosition(hex.body,{x:mouseX,y:mouseY});  
